@@ -1,0 +1,180 @@
+/*Genneral Set-up*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	color: #4B525C;
+}
+
+/*Links*/
+a {
+	transition: opacity ease-out 0.7s;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+i {
+	font-size: 30px;
+	width: 40px;
+	margin-top: 10px;
+}
+
+/*Menu*/
+
+#main-menu {
+	width: 100%;
+	background-color: #BB5D3E;
+	overflow: hidden;
+}
+
+#main-menu > li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 16.6%;
+	float: left;
+	list-style: none;
+}
+
+#main-menu > li > a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.active {
+	border-bottom: 3px solid #ffffff;
+	color: #ffffff;
+}
+
+header > img {
+	width: 100%;
+	overflow: hidden;
+	height: 150px;
+}
+
+/*Body*/
+
+body {
+	background-color: #eee;
+}
+
+content {
+
+}
+
+/*HOME PAGE*/
+
+#content-upper {
+	overflow:hidden;
+}
+
+#content-upper > li{
+	width: 33.3%;
+	float: left;
+	list-style: none;
+}
+
+#content-upper > li > img {
+	width: 70%;
+	margin: 0 15%;
+}
+
+#content-upper > li > h2 {
+	width: 70%;
+	margin: 60px 15%;
+	font-size: 100px;
+	border-bottom: 4px solid #4B525C;
+	border-top: 4px solid #4B525C;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+#content-lower > img {
+	width: 100%;
+}
+
+#content-lower > p {
+	width: 70%;
+	margin: 0 15%;
+}
+
+/*Footer*/
+
+footer {
+	margin-top: 20px;
+	background-color: #ddd;
+}
+
+/*ABOUT PAGE*/
+
+#about-list {
+	width: 70%;
+	margin: 0 15%;
+}
+
+#about-list > li {
+	overflow: hidden;
+}
+
+#about-list > li > figure {
+	float: left;
+	width: 33.3%;
+}
+
+#about-list > li > figure > img {
+	height: 200px;
+}
+
+#about-list > li > p {
+float: left;
+width: 66.6%;
+margin-top: 30px
+}
+
+/*Browse // My books pages*/
+
+.bookList {
+	width: 70%;
+	margin: 0 15%;
+}
+
+.bookList > li {
+	background-color: #c46d50;
+	list-style: none;
+	margin: 5px 0;
+	overflow: hidden;
+	border: 2px solid #d67f62;
+}
+
+.bookList > li > h3, .bookList > li > p, .bookList > li > h4, .resButt {
+	margin: 20px 0;
+	line-height: 20px;
+	float: left;
+	color: #fff;
+}
+
+.bookList > li > h3{
+	width: 20%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.bookList > li > p{
+	width: 20%;
+	text-align: left;
+}
+
+.bookList > li > h4{
+	width: 10%;
+}
+
+.resButt {
+	margin-left: 1%;
+	background-color: #d67f62;
+	border: none;
+	padding: 0 10px;
+}
